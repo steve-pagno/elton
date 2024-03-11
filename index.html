@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"
+        defer></script>
+    <script src="js/main.js" defer></script>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Perfil</title>
+</head>
+
+<body>
+    <header class="shadow-lg">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <a href="">
+                <img src="img/elton-john.png" alt="Logo dos Institutos Federais" width="120" class="ms-3">
+            </a>
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#dadosPessoais"><i
+                                    class="bi bi-person-fill"></i> Dados Pessoais</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#dadosProfissionais"><i class="bi bi-music-note-beamed"></i></i>
+                                Músicas Famosas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#disciplinas"><i class="bi bi-vinyl-fill"></i>
+                                Principais Discos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projetos"><i class="bi bi-camera-reels-fill"></i>
+                                Filmes</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="mx-5 mt-3">
+        <section id="dadosPessoais">
+            <h3><i class="bi bi-person-fill"></i> Dados Pessoais</h3>
+            <div class="row">
+                <div class="col">
+                    <p>Nome: Elton John</p>
+                    <p>Nascimento: 25/03/1947</p>
+                    <p>Gêneros de música: Pop, New Age</p>
+                </div>
+                <div class="col">
+                    <img src="img/perfilElton.avif" alt="" width="110" class="border border-dark border-2 rounded-4">
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section id="dadosProfissionais">
+            <h3><i class="bi bi-music-note-beamed"></i> Músicas Famosas</h3>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button  collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            Rocket Man (1972)
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Rocket Man</strong> é uma canção icônica do cantor e compositor britânico Elton
+                            John, lançada em 1972 como parte do álbum "Honky Château". A música narra a história de um
+                            astronauta solitário em uma missão espacial de longa duração, enfrentando o isolamento e a
+                            saudade de casa.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Goodbye Yellow Brick Road (1973)
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Goodbye Yellow Brick Road</strong> é uma balada reflexiva interpretada pelo cantor e
+                            compositor britânico Elton John, composta por ele e Bernie Taupin. Lançada em 1973 como
+                            faixa-título do álbum homônimo, a canção se tornou um marco na carreira do artista.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Nikita (1989)
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Nikita</strong> é uma canção de amor do cantor e compositor britânico Elton John,
+                            lançada em 1985 como o primeiro single do álbum "Ice on Fire". A música se destaca por sua
+                            melodia contagiante e letra intrigante, ambientada no contexto da Guerra Fria.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+
+        <section id="disciplinas">
+            <h3><i class="bi bi-vinyl-fill"></i> Principais Discos</h3>
+            <div class="row">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/Goodbye.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Goodbye Yellow Brick Road</h5>
+                            <p class="card-text">
+                            </p>
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                            aria-expanded="false" aria-controls="collapseFour">
+                                            Informações sobre o álbum
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFour" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>
+                                                Lançado em 1973, este álbum duplo é considerado um dos melhores
+                                                trabalhos de Elton
+                                                John
+                                                e um dos melhores álbuns de todos os tempos.
+                                                Inclui os sucessos "Candle in the Wind", "Saturday Night's Alright
+                                                for Fighting" e
+                                                "Goodbye Yellow Brick Road".
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/Honky.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Honky Château</h5>
+                            <p>
+                            </p>
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseSix"
+                                            aria-expanded="false" aria-controls="collapseSix">
+                                            Informações sobre o álbum
+                                        </button>
+                                    </h2>
+                                    <div id="collapseSix" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>
+                                                Lançado em 1972, este álbum foi um grande sucesso comercial e de
+                                                crítica, e
+                                                apresentou o single de
+                                                sucesso "Rocket Man".
+                                                O álbum é conhecido por seu estilo rock and roll mais duro.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/EltonJohn.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Elton John</h5>
+                            <p class="card-text"></p>
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseFive"
+                                            aria-expanded="false" aria-controls="collapseFive">
+                                            Informações sobre o álbum
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFive" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>
+                                                Lançado em 1970, este álbum foi o primeiro lançamento de Elton John nos
+                                                Estados Unidos e foi um grande sucesso.
+                                                Inclui os singles de sucesso "Your Song" e "Border Song".
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/madman.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Madman Across the Water</h5>
+                            <p class="card-text"></p>
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseSeven"
+                                            aria-expanded="false" aria-controls="collapseSeven">
+                                            Informações sobre o álbum
+                                        </button>
+                                    </h2>
+                                    <div id="collapseSeven" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>
+                                                Lançado em 1971, este álbum é considerado um dos trabalhos mais pessoais
+                                                de Elton John.
+                                                Inclui os singles de sucesso "Tiny Dancer" e "Levon".
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+
+        <section id="projetos">
+            <h3><i class="bi bi-camera-reels-fill"></i> Filmes</h3>
+            <div class="row">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/tommy.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Tommy (1975)</h5>
+                            <p class="card-text">
+                                Elton John interpretou o Pinball Wizard neste rock opera filme baseado no álbum do The
+                                Who.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/king.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Kingsman: The Golden Circle (2017)</h5>
+                            <p class="card-text">
+                                Elton John interpretou a si mesmo neste filme de ação comédia.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/rocket.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Rocketman (2019)</h5>
+                            <p class="card-text">
+                                Este filme biográfico conta a história da vida de Elton John, desde sua infância até o
+                                estrelato.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/rei.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">The Lion King (1994)</h5>
+                            <p class="card-text">
+                                Elton John escreveu a música "Can You Feel the Love Tonight" para este filme de animação
+                                da Disney.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark mt-5">
+        <div class="text-light text-end p-5 fs-5">
+            <a href="http://instagram.com/eltonjohn">
+                <i class="bi bi-instagram"></i> @eltonjohn
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>
